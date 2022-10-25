@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Life Counter</title>
+    <link rel="stylesheet" href="addon.css"/>
+    <script src="function.js" async defer></script>
+</head>
+<body>
+<div class="container">
+    <div class="colorbuttons">
+    <div class="grey" onclick="colorchange('#DCDCDC')">Grey</div>
+    <div class="brown" onclick="colorchange('#F4A460')">Brown</div>
+    <div class="pink" onclick="colorchange('#FFB6C1')">Pink</div>
+    <div class="beige" onclick="colorchange('#F5F5DC')">Beige</div>
+</div>
+
+    <div></br>
+        <h1>Life Counter</h1>
+    </div>
+    <div>
+        <div class="buttontitle">Health</div>
+        <button class="healthbutton" onclick="up()">+</button>
+        <div id="health">20</div>
+        <button class="healthbutton" onclick="down()">-</button>
+    </div>
+<br/>
+    <div>
+        <div class="buttontitle">Poison Counter</div>
+        <button class="poisonbutton" onclick="up2()">+</button>
+        <div id="poison">0</div>
+        <button class="poisonbutton" onclick="down2()">-</button>
+    </div>
+<br/>
+    <div>
+        <div class="buttontitle">Commander Damage</div>
+        <button class="damagebutton" onclick="up3()">+</button>
+        <div id="damage">0</div>
+        <button class="damagebutton" onclick="down3()">-</button>
+    </div>
+<br/>
+    <div class="d20" id="d20" onclick="rolld20()">d20</div>
+
+</div>
+</body>
+</html>

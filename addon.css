@@ -1,0 +1,62 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: flex-start;
+}
+body{
+    background-color:beige;
+}
+
+div.colorbuttons{
+    justify-items: flex-start;
+    
+    color: blue;
+}
+
+h1{
+    order: 5;
+    font-family: "Lucida Handwriting";
+    color: rgb(137, 114, 21);  
+    font-size: 100px;
+    text-align: center;
+    padding: 10px;
+    border: 4px solid;
+    border-radius: 20px; 
+    margin: 2px;
+}
+
+button.healthbutton{
+    background-color: beige;
+    width: 70px;
+    height: 70px;
+    border-color: blue;
+}
+
+
+
+div.body1{
+    text-align: center; 
+}
+
+div.grey{
+    margin: 5px;
+    border: 2px solid #DCDCDC;
+}
+
+div.brown{
+    margin: 5px;
+    border: 2px solid #F4A460;
+}
+
+div.pink{
+    margin: 5px;
+    border: 2px solid #FFB6C1;
+}
+
+div.beige{
+    margin: 5px;
+    border: 2px solid #F5F5DC;
+}
