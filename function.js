@@ -52,3 +52,6 @@ var shownumber = ``;
         dice.innerHTML = shownumber;
         console.log(shownumber)
     }
+
+
+   

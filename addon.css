@@ -13,7 +13,7 @@ body{
 div.colorbuttons{
     justify-items: flex-start;
     
-    color: blue;
+    color: rgb(102, 102, 75);
 }
 
 h1{
