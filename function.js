@@ -44,14 +44,19 @@ function colorchange(color){
 }
 
 // Diceroll
-var dice = document.getElementById(`d20`)
+
 var shownumber = ``;
 
-    function rolld20(){
-        shownumber = 1 + Math.floor(Math.random() * 20);
+    function roll(dice, container){
+        shownumber = 1 + Math.floor(Math.random() * dice);
         dice.innerHTML = shownumber;
         console.log(shownumber)
+        container.innerHTML = shownumber; 
     }
 
+let dicepicture = document.getElementById(`dnd`).outerHTML; 
 
+function dicezoom(){
+    
+}
    
