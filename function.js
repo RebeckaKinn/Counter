@@ -56,7 +56,4 @@ var shownumber = ``;
 
 let dicepicture = document.getElementById(`dnd`).outerHTML; 
 
-function dicezoom(){
-    
-}
-   
+
